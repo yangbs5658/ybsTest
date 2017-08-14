@@ -16,3 +16,4 @@ console.log(jim.firstname);
 jim.changeName("Tom");
 console.log(jim.firstname);
 console.log(jim.firstname);
+console.log(jim.firstname);
