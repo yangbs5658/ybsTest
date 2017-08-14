@@ -1,21 +1,18 @@
 #!/usr/bin/env node
 
-//ÔÚ¹¹ÔìÆ÷º¯ÊýÄÚ²¿¶¨Òå¶ÔÏóµÄ·½·¨£º
-function Person(firstname,lastname,age,eyecolor)
-{
-	this.firstname=firstname;
-	this.lastname=lastname;
-	this.age=age;
-	this.eyecolor=eyecolor;
-	this.changeName=function(name)
-	{
-		this.firstname=name;
-	};
+//ï¿½Ú¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä·ï¿½ï¿½ï¿½ï¿½ï¿½
+function Person(firstname, lastname, age, eyecolor) {
+    this.firstname = firstname;
+    this.lastname = lastname;
+    this.age = age;
+    this.eyecolor = eyecolor;
+    this.changeName = function(name) {
+        this.firstname = name;
+    };
 }
 
-var jim =new Person("james","carter",12,"bule");
+var jim = new Person("james", "carter", 12, "bule");
 console.log(jim.firstname);
 jim.changeName("Tom");
 console.log(jim.firstname);
-
-
+console.log(jim.firstname);
